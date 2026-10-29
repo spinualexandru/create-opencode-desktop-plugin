@@ -1,6 +1,6 @@
 {
   "name": "create-opencode-desktop-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scaffold an OpenCode Desktop GUI plugin: bun create opencode-desktop-plugin",
   "author": "Alex Spinu",
   "license": "MIT",

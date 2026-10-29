@@ -54,22 +54,3 @@ Add the plugin directory to the **global** `~/.config/opencode/opencode.jsonc` (
 ```jsonc
 { "plugins": ["/absolute/path/to/my-plugin"] }
 ```
-
-## Developing this generator
-
-```sh
-bun test/smoke.ts   # generates every variant, then installs, builds, and type-checks each one
-```
-
-`template/` holds the files. `index.js` replaces `__TOKEN__` placeholders and resolves feature blocks
-(`// #if server`, `{/* #if main */}`, `<!-- #if main -->`, with `#else` / `#endif`). It writes `package.json`
-itself.
-
-## Publish
-
-```sh
-npm publish
-```
-
-After publishing, `bun create opencode-desktop-plugin` resolves the package `create-opencode-desktop-plugin` and runs
-its bin.
