@@ -2,6 +2,16 @@
   "name": "create-opencode-desktop-plugin",
   "version": "0.1.0",
   "description": "Scaffold an OpenCode Desktop GUI plugin: bun create opencode-desktop-plugin",
+  "author": "Alex Spinu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinualexandru/create-opencode-desktop-plugin.git"
+  },
+  "homepage": "https://github.com/spinualexandru/create-opencode-desktop-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/spinualexandru/create-opencode-desktop-plugin/issues"
+  },
   "type": "module",
   "bin": {
     "create-opencode-desktop-plugin": "./index.js"
@@ -23,6 +33,5 @@
   },
   "scripts": {
     "test": "bun test/smoke.ts"
-  },
-  "license": "MIT"
+  }
 }
