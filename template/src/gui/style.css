@@ -1,0 +1,29 @@
+.__SLUG__-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+}
+
+.__SLUG__-panel h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.__SLUG__-panel p {
+  margin: 0;
+  opacity: 0.75;
+}
+
+.__SLUG__-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.__SLUG__-settings {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

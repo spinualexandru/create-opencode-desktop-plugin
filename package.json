@@ -1,0 +1,28 @@
+{
+  "name": "create-opencode-desktop-plugin",
+  "version": "0.1.0",
+  "description": "Scaffold an OpenCode Desktop GUI plugin: bun create opencode-desktop-plugin",
+  "type": "module",
+  "bin": {
+    "create-opencode-desktop-plugin": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "template"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "opencode-desktop",
+    "create",
+    "template",
+    "scaffold"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "bun test/smoke.ts"
+  },
+  "license": "MIT"
+}
