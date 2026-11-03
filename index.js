@@ -12,11 +12,11 @@ const TEMPLATE = path.join(path.dirname(fileURLToPath(import.meta.url)), "templa
 
 // Versions the template is tested with.
 const VERSIONS = {
-  "@opencode/plugin": "^2.2.1",
+  "@opencode/plugin": "^2.2.5",
   "@types/node": "^24.0.0",
   electron: "^45.0.0",
   "solid-js": "^1.9.0",
-  typescript: "^5.9.0",
+  typescript: "^7.0.0",
   vite: "^8.0.0",
   "vite-plugin-solid": "^2.11.0",
 }

@@ -17,8 +17,8 @@ export const en = {
   // #endif
   "settings.title": "__TITLE__",
   "settings.greeting": "Greeting",
-  "settings.status": "Show status bar item",
-  "settings.status.description": "Shows a small __TITLE__ label at the bottom of the window.",
+  "settings.status": "Show titlebar pill",
+  "settings.status.description": "Shows a small __TITLE__ pill in the window titlebar.",
   "status.label": "__TITLE__ is running",
   "toast.hello": "{{greeting}} from __TITLE__!",
 } satisfies Record<string, string>
