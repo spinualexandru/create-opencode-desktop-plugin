@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      # Mondays and Thursdays at 09:00 Bucharest time.
+      cronjob: "0 9 * * 1,4"
+      timezone: "Europe/Bucharest"
